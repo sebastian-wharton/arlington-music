@@ -2,14 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
+  font-family: Archivo;
+  color: #0D1117;
 }
 
 a {
-  color: inherit;
+  
   text-decoration: none;
 }
 
@@ -17,12 +22,50 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: light) {
-  html {
-    color-scheme: light;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.title {
+  font-family: "Radley";
+  font-size: large;
+}
+
+.footer {
+  background-color: #311616;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: #727272;
+  text-align: center;
+  text-justify: auto;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  color: #f2f2f2;
+  z-index: 1;
+  background-color: #311616;
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 60px;
+  margin: auto;
+  padding: 10px 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar .logo {
+  margin-right: auto;
+  padding-left: 35px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.navbar .links {
+  font-size: medium;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.navbar .links a {
+  padding: .9em;
 }

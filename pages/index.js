@@ -1,42 +1,38 @@
+import Head from "next/head";
 import Image from "next/image";
-import concert from "../public/images/concert.jpg";
-import guitar from "../public/images/guitar.jpg";
-import man from "../public/images/man.jpg";
-import Navbar from "../comps/NavBar";
-
+import plax1 from "../images/concert.jpg";
+import plax2 from "../images/man.jpg";
+import plax3 from "../images/guitar.jpg";
 
 export default function Home() {
   return (
     <>
-      
-      <Navbar />
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <h2>Arlington Music is officially operational! Woohoo!</h2>
-      <div className="relative w-32 h-32 overflow-hidden rounded-full ring-2 ring-pink-300 ring-offset-4">
+      <Head>
+        <title>Arlington Music</title>
+        <meta name="keywords" content="ninjas" />
+      </Head>
+      <div className="relative w-full h-screen">
         <Image
-          objectFit="cover"
-          src={concert}
-          alt="Mansfield Family Dentistry Logo"
+          src={plax1}
+          alt="picture  of concert"
           layout="fill"
-          priority
+          objectFit="cover"
         />
       </div>
-      <div className="relative w-32 h-32 overflow-hidden rounded-full ring-2 ring-pink-300 ring-offset-4">
+      <div className="relative w-full h-screen">
         <Image
-          objectFit="cover"
-          src={man}
-          alt="Picture of smiling woman"
+          src={plax2}
+          alt="picture  of concert"
           layout="fill"
-          priority
+          objectFit="cover"
         />
       </div>
-      <div className="relative w-32 h-32 overflow-hidden rounded-full ring-2 ring-pink-300 ring-offset-4">
+      <div className="relative w-full h-screen">
         <Image
-          objectFit="cover"
-          src={guitar}
-          alt="Picture of smiling woman"
+          src={plax3}
+          alt="picture  of concert"
           layout="fill"
-          priority
+          objectFit="cover"
         />
       </div>
     </>
