@@ -1,0 +1,36 @@
+.h1 {
+    font-family: "Radley";
+    font-size: 2.25rem;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 5rem;
+    width: 100%;
+    font-weight: bold;
+}
+/* className="justify-center text-center  " */
+
+.h2{
+    font-family: "Radley";
+        font-size: 1.5rem;
+        
+        padding: 10px 0px;
+        width: 100%;
+        font-weight: bold;
+}
+/* className="justify-center text-center absolute top-32 right-0 px-5 text-3xl bold border-l-2 border-black w-1/2 h-1/2" */
+
+.container {
+    display: flex;
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    top: 100px;
+}
+
+.child {
+    border: 2px solid red;
+    width: 50%;
+    height: 50%;
+}
+

@@ -18,6 +18,9 @@ const Navbar = () => {
         <Link href="/store/">
           <a className="pr-3">Store</a>
         </Link>
+        <Link href="/test">
+          <a className="pr-3">Test</a>
+        </Link>
       </div>
     </div>
   );
