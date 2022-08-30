@@ -1,0 +1,14 @@
+.imgContainer {
+    position: relative;
+    width: 100%;
+    height: screen;
+}
+
+.overlay {
+    position: absolute;
+    background-color: orange;
+    color: white;
+    top: 30%;
+    left: 0%;
+    z-index: 10;
+}

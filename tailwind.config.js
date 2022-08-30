@@ -6,13 +6,10 @@ module.exports = {
   ],
   theme: {
     colors: {
-      c1: "#",
-      c2: "#",
-      c3: "#",
-      c4: "#",
-      c5: "#",
-      c6: "#",
-      c7: "#",
+      Tred: "#311616",
+      Tblack: "#010409",
+      Twhite: "#f2f2f2",
+      Tgray: "#727272",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],

@@ -2,14 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500&family=Gafata&family=Sarabun:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500&family=Gafata&family=Sarabun:wght@100;200;300;400;500;600;700&display=swap');
+        /* font-family: 'Archivo',
+        sans-serif;
+    
+        font-family: 'Gafata',
+        sans-serif;
+    
+        font-family: 'Sarabun',
+        sans-serif; */
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Archivo;
   color: #0D1117;
 }
 
@@ -20,6 +27,7 @@ a {
 
 * {
   box-sizing: border-box;
+  border: 2px solid black;
 }
 
 .title {
@@ -82,6 +90,27 @@ p {
   padding: .9em;
 }
 
-.card {
-  flex: ;
+.stag1 {
+  top: 90px;
+  color: #f2f2f2;
+  left: 50px;
 }
+
+.stag2 {
+top: 90px;
+  color: #f2f2f2;
+  left: 60px;
+}
+
+.stag3 {
+top: 90px;
+  color: #f2f2f2;
+  left: 70px;
+}
+
+.stag4 {
+top: 90px;
+  color: #f2f2f2;
+  left: 80px;
+}
+

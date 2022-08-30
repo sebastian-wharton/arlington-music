@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import AdCard from "../components/AdCard";
 import plax1 from "../images/concert.jpg";
 import plax2 from "../images/man.jpg";
 import plax3 from "../images/guitar.jpg";
-import AdCard from "../components/AdCard";
 
 export default function Home() {
   return (
@@ -12,19 +13,19 @@ export default function Home() {
         <title>Arlington Music</title>
         <meta name="keywords" content="ninjas" />
       </Head>
-      <div className="relative w-full h-screen">
+      <div className={styles.imgContainer}>
         <Image
           src={plax1}
           alt="picture of a rock concert"
           layout="fill"
           objectFit="cover"
         />
-      </div>
-      <div className="overlay">
-        <h1 className="stag1">Invent your style,</h1>
-        <h1 className="stag2">Create your sound,</h1>
-        <h1 className="stag3">Share your voice.</h1>
-        <h1 className="tagline">The power of music</h1>
+        <div className={styles.overlay}>
+          <div className="left-0">Invent your style,</div>
+          <div className="left-0">Create your sound,</div>
+          <div className="left-0">Share your voice.</div>
+          <div className="left-0">The power of music</div>
+        </div>
       </div>
       <div className="relative w-full h-screen">
         <Image
