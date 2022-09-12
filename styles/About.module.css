@@ -7,16 +7,16 @@
     top: 5rem;
     width: 100%;
     font-weight: bold;
+    background-color: blue;
 }
 /* className="justify-center text-center  " */
 
 .h2{
     font-family: "Radley";
-        font-size: 1.5rem;
-        
-        padding: 10px 0px;
-        width: 100%;
-        font-weight: bold;
+    font-size: 1.5rem;   
+    padding: 10px 0px;
+    width: 100%;
+    font-weight: bold;
 }
 /* className="justify-center text-center absolute top-32 right-0 px-5 text-3xl bold border-l-2 border-black w-1/2 h-1/2" */
 

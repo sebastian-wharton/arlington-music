@@ -6,10 +6,10 @@ module.exports = {
   ],
   theme: {
     colors: {
-      Tred: "#311616",
-      Tblack: "#010409",
-      Twhite: "#f2f2f2",
-      Tgray: "#727272",
+      Thred: "#311616",
+      Thblack: "#010409",
+      Thwhite: "#f2f2f2",
+      Thgray: "#727272",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],

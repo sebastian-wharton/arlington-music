@@ -1,4 +1,4 @@
-.results {
+/* .results {
     position: absolute;
     width: 80%;
     height: 60%;
@@ -8,12 +8,62 @@
     gap: 1%;
     grid-template-columns: repeat(5, 1fr);
     background-color: antiquewhite;
-} 
+} */
 
-.card {
-    color: navy;
-    background-color: #f2f2f2;
-    width: 100%;
-    height: 100px;
+/* .gridbox {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    top: 200px;
+    left: 30px;
+    gap: 1%;
 }
 
+.header {
+    background-color: red;
+grid-column: 1 / 13;
+    grid-row: 1;
+}
+
+.main {
+    background-color:green;
+    grid-column: 4 / 13;
+        grid-row: 2;
+}
+
+.sidebar {
+    background-color: blue;
+    grid-column: 1 / 4;
+        grid-row: 2;
+} */
+
+
+.body {
+    width: 100%;
+    max-width: 960px;
+    margin: 2em auto;
+    font: .9em/1.2 Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 7fr;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.header{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.main {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: gray;
+}
+
+.side {
+    border-right: 1px solid #999;
+}

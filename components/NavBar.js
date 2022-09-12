@@ -18,9 +18,6 @@ const Navbar = () => {
         <Link href="/store/">
           <a className="pr-3">Store</a>
         </Link>
-        <Link href="/test">
-          <a className="pr-3">Test</a>
-        </Link>
         <Link href="/store/cart">
           <a className="pr-3">Cart</a>
         </Link>

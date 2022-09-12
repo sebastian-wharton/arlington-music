@@ -21,10 +21,18 @@ export default function Home() {
           objectFit="cover"
         />
         <div className={styles.overlay}>
-          <div className="left-0">Invent your style,</div>
-          <div className="left-0">Create your sound,</div>
-          <div className="left-0">Share your voice.</div>
-          <div className="left-0">The power of music</div>
+          <div className="absolute left-24 top-36 text-2xl">
+            Invent your style,
+          </div>
+          <div className="absolute left-32 top-52 text-2xl">
+            Create your sound,
+          </div>
+          <div className="absolute left-40 top-72 text-2xl">
+            Share your voice.
+          </div>
+          <div className="absolute right-14 top-96 text-2xl">
+            The power of music
+          </div>
         </div>
       </div>
       <div className="relative w-full h-screen">
@@ -35,13 +43,15 @@ export default function Home() {
           objectFit="cover"
         />
       </div>
-      <div className="cardSection">
-        <h2 className="text-white-700">Title</h2>
+      <h2 className="bg-Thgray text-center p-2 font-medium text-2xl">
+        Limited Time Deals!
+      </h2>
+      <div className="flex w-screen mx-auto bg-Thgray">
         <AdCard />
         <AdCard />
         <AdCard />
       </div>
-      ;
+
       <div className="relative w-full h-screen">
         <Image
           src={plax3}

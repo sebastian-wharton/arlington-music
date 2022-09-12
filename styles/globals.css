@@ -21,13 +21,7 @@ body {
 }
 
 a {
-  
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-  border: 2px solid black;
 }
 
 .title {

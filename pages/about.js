@@ -2,7 +2,20 @@ import styles from "../styles/About.module.css";
 
 const About = () => {
   return (
-    <>
+    <div className="bg-Thblack text-Thwhite">
+      <h1>About Us</h1>
+      <div className="flex justify-center mx-auto">
+        <div className="Contact">
+          <h2>Contact</h2>
+        </div>
+        <div className="Visit">
+          <h2>Visit Us In Person!</h2>
+        </div>
+        <div className="gallery">
+          <h2>Meet the Family!</h2>
+        </div>
+      </div>
+
       <h1 className={styles.h1}>About Us</h1>
       <div className="justify-center text-center absolute top-32 px-5 text-lg bold w-1/2 h-1/2">
         <h2 className={styles.h2}>Contact</h2>
@@ -45,7 +58,7 @@ const About = () => {
           {/* Insert sc of google maps pg that links to google maps address */}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

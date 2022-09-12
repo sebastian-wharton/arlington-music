@@ -4,17 +4,16 @@ import plax3 from "../images/guitar.jpg";
 
 const AdCard = () => {
   return (
-    <div className="border-2 ">
-      <h2 className="">Advert</h2>
-      <p className="">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ipsum
-        nam, repellat debitis repudiandae rem.
-      </p>
-
-      <div className="opacity-0 border-2 border-red-900 h-5 w-5">
-        {/* <Image src={plax3} alt="picture of" width={100%} height="auto" /> */}
+    <>
+      <div className="w-[32%] justify-center mx-auto p-2 bg-Thblack text-Thwhite">
+        <div className="img w-[90%] h-[150px] bg-Thred justify-center mx-auto mt-2"></div>
+        <h3 className="text-center text-lg">Ad card</h3>
+        <p className="text-center">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque
+          placeat magni nulla quo veniam harum vel obcaecati a earum blanditiis.
+        </p>
       </div>
-    </div>
+    </>
   );
 };
 
