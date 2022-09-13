@@ -2,8 +2,55 @@ import styles from "../styles/About.module.css";
 
 const About = () => {
   return (
-    <div className="bg-Thblack text-Thwhite">
-      <h1>About Us</h1>
+    <>
+      <div className="text-Thblack top-36 absolute w-full bg-Thblack">
+        <div className="flex">
+          <div className="w-1/2 text-center ">
+            <h2 className="">Contact</h2>
+            <form action="">
+              <input
+                type="text"
+                className="border-2 border-black rounded-md my-2"
+              />
+              <label htmlFor=""></label>
+              <br />
+              <input
+                type="text"
+                className="border-2 border-black rounded-md my-2"
+              />
+              <label htmlFor=""></label>
+              <br />
+              <input
+                type="text"
+                className="border-2 border-black rounded-md my-2"
+              />
+              <label htmlFor=""></label>
+              <br />
+              <button className="border-2 border-black rounded-md shadow-md bg-Thred text-Thwhite px-2">
+                Send
+              </button>
+            </form>
+          </div>
+          <div className="w-1/2 text-center  border-l-2 border-black">
+            <h2 className="">Store Info</h2>
+            <p className="bold inline-block">Phone: </p>
+            <p className="bold inline-block">123-456-1234</p>
+            <br />
+            <p className="bold inline-block">Address: </p>
+            <p className="bold inline-block">123 Fuck Ave.</p>
+
+            <div className="box w-2/3 h-60 bg-Thred justify-center mx-auto my-4"></div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default About;
+
+{
+  /* <h1>About Us</h1>
       <div className="flex justify-center mx-auto">
         <div className="Contact">
           <h2>Contact</h2>
@@ -22,9 +69,9 @@ const About = () => {
         <p className="font-extrabold text-xl pt-2 pl-6">Phone:</p>
         <p className="bold text-lg text-left px-8 ">682-445-1275</p>
         <p className="font-extrabold text-xl pt-2 pl-6">Send us a Message:</p>
-        {/* Insert Form */}
+         Insert Form 
 
-        <p className="font-extrabold text-xl pt-2 pl-6">Store Hours: </p>
+       <p className="font-extrabold text-xl pt-2 pl-6">Store Hours: </p>
         <div>
           <div className="text-left float-left pl-16 ">
             Monday: <br />
@@ -55,11 +102,5 @@ const About = () => {
           Arlington, TX 76018
         </p>
         <div className="border-2 border-black h-[300px] w-[300px] mx-auto">
-          {/* Insert sc of google maps pg that links to google maps address */}
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default About;
+          Insert sc of google maps pg that links to google maps address */
+}

@@ -2,6 +2,7 @@ import styles from "../../styles/Store.module.css";
 import Head from "next/head";
 import Link from "next/link";
 import StoreCard from "../../components/StoreCard";
+import Filter from "../../components/Filter";
 
 const Store = () => {
   return (
@@ -17,14 +18,16 @@ const Store = () => {
       <div className={styles.body}>
         <div className={styles.container}>
           <div className={styles.header}></div>
-          <div className="border-2 border-b-Thgray rounded-md h-14 p-2 align-middle justify-center content-center">
-            <h1>Filter Header</h1>
-          </div>
+          <Filter />
           <div className={styles.side}>
             <p>Sidebar</p>
           </div>
           <div className={styles.main}>
-            <p>Mainbar</p>
+            {/* <p>Mainbar</p> */}
+            <StoreCard />
+            <StoreCard />
+            <StoreCard />
+            <StoreCard />
           </div>
         </div>
       </div>
